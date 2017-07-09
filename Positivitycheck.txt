@@ -1,0 +1,39 @@
+import java.util.*;
+public class MyClass {
+    public static void main(String args[]) {
+
+       int num;
+
+	Scanner sc=new Scanner(System.in);
+
+	System.out.print("Enter your no here: ");
+
+	num=sc.nextInt();
+	
+if(num>0)
+	
+{
+		System.out.print("The number is positive.");
+	
+}
+	
+else if(num<0)
+	
+{
+		
+System.out.print("The Number is negetive");
+	
+}
+	
+else
+	
+{
+		
+System.out.print("ZERO");
+	
+}
+
+    }
+
+}
+
